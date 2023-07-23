@@ -1,4 +1,5 @@
 header {
+	background: #FFFFFF;
 	padding: 20px 0px;
 }
 
@@ -32,7 +33,7 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-#banner {
+#banner{
 	width: 100%;
 }
 
@@ -41,40 +42,42 @@ nav a:hover {
 	padding: 30px;
 }
 
-.titulo-principal {
-	padding-left: 20px;
-}
-
 .titulo-centralizado {
 	text-align: center;
+	font-weight: bold;
+	padding: 25px;
+}
+
+h2{
+	font-size: 24px;
+}
+
+h3{
+	font-size:20px;
 }
 
 p {
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 #missao{
 	font-size: 20px;
+	font-style: italic;
 }
 
 em strong {
 	color:#FF0000;
+	font-weight:bold;
 }
 
-.itens{
+.menu2 {
+	font-size:20px;
 	font-style: italic;
-}
-
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
-}
-
-ul {
-	display:inline-block;
+	display: inline-block;
 	vertical-align: top;
 	width: 20%;
-	margin-right: 10%;
+	margin: 0 0 10% 10%;
 }
 
 .imagembeneficios{
@@ -92,3 +95,4 @@ footer {
 	font-size: 13 px;
 	margin: 20px 0 0;
 }
+

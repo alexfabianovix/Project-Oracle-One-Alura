@@ -1,28 +1,44 @@
-/* CSS padrão para todo site */
-
-/* Elementos com a tag <body> */
 body{
-	font-family: "Montserrat", sans-serif;
+	
+	font-family: 'Montserrat', sans-serif;
 	line-height: 1.5em;
 }
 
-/* Elementos com a tag <header> */
+
 header {
 	background: #BBBBBB;
-	padding: 20px 0;
+	padding: 20px 0px;
 }
 
-
-
-/* Elementos de classe "menuPrincipal" */
-.menuPrincipal {
+.caixa {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
 }
 
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0px;
+}
 
-/* Elementos com a tag <li> */
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
 
 .produtos{
 	width: 940px;
@@ -137,6 +153,11 @@ td, th {
 	text-align: center;
 }
 
+/* css da página inicial */
+
+.banner {
+	width: 100%;
+}
 
 .titulo-principal {
 	text-align: center;
@@ -221,7 +242,7 @@ td, th {
 
 .imagem-beneficios {
 	width: 60%;
-	opacity: 1%;
+	opacity: 1;
 	transition: 400ms;
 	box-shadow: 10px 10px 15px 20px #000000;
 }
@@ -258,9 +279,8 @@ td, th {
 	}
 
 	.itens:last-child{
-		margin-bottom: 10px;
+		margin=bottom: 10px;
 	}
-	
 	.produtos li {
 		display: block;
 		/* text-align: center; */
