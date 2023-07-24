@@ -1,0 +1,36 @@
+.pessoa__imagem {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    
+}
+
+.pessoa__imagem--roberta {
+    background-image: url("../../img/pessoas/roberta.jpg");
+}
+
+.pessoa__imagem--marcela {
+    background-image: url("../../img/pessoas/marcela.jpg");
+}
+
+.pessoa__imagem--andreia {
+    background-image: url("../../img/pessoas/andreia.jpg");
+}
+
+@media screen and (min-width: 0) {
+    .pessoa__imagem {
+        margin: auto;
+        height: 150px;
+        width: 150px;
+
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .pessoa__imagem {
+        margin: 0 auto;
+        height: 300px;
+        width: 300px;
+    }
+}
