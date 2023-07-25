@@ -35,3 +35,10 @@ Textos baixados:
 ## Screenshots
 ![Screenshot da tela inicial do AluraPlay](https://imgur.com/aymxEsh.png)
 ![Screenshot da tela do formulário do AluraPlay](https://imgur.com/ShNADf2.png)
+
+
+Observações: 
+    -- O Alura+ sobre Node-JS: O que é e como funciona da Juliana Amoasei não está liberado.
+    -- O Alura+ do Vinícius Dias: O que é uma API também não está liberado.
+
+
