@@ -8,5 +8,5 @@ Barbearia Alura:
 https://alexfabianovix.github.io/Project-Oracle-One-Alura/Barbearia-Alura/
 
 Arquivos DB Json:
-https://alexfabianovix.github.io/Project-Oracle-One-Alura/arquivos-json/db.json
+https://alexfabianovix.github.io/Project-Oracle-One-Alura/arquivos-json/videos.json
 
